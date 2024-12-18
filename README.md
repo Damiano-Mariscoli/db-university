@@ -38,19 +38,19 @@ where hour(`hour`) >= '14:00' and `date` ="2020-06-20"
 ```
 
 
-
+### 6
 ```SQL
-SELECT * 
-FROM `courses`
-where `cfu` > 10
+select *
+from `degrees`
+where `level` = 'magistrale'
 ```
 
 
-
+### 7
 ```SQL
-SELECT * 
-FROM `courses`
-where `cfu` > 10
+select *
+from `departments`
+
 ```
 
 
