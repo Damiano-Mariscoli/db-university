@@ -55,11 +55,12 @@ from `departments`
 
 
 
-
+### 8
 ```SQL
-SELECT * 
-FROM `courses`
-where `cfu` > 10
+select *
+from `teachers`
+where `phone` is null
+
 ```
 
 
