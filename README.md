@@ -88,6 +88,9 @@ where `name` ='Pietro' and `surname` = 'Rizzo'
 ### 11 Eliminare dalla tabella studenti il record creato precedentemente al punto 9
 
 ```SQL
+-- SELECT id from students
+-- where name = 'damiano' and surname = 'mariscoli' 
+
 delete from `students`
 where `name` = 'Damiano' and `surname` = 'Mariscoli'
 ```
