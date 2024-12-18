@@ -79,15 +79,19 @@ VALUES (18, 'Damiano', 'Mariscoli', '1972-08-31' , 'DADSADASDASD1231', '2019-04-
 ### 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
 
 ```SQL
-
+update `teachers`
+set `office_number` = 126
+where `name` ='Pietro' and `surname` = 'Rizzo'
 ```
 
 
 ### 11 Eliminare dalla tabella studenti il record creato precedentemente al punto 9
 
 ```SQL
-
+delete from `students`
+where `name` = 'Damiano' and `surname` = 'Mariscoli'
 ```
+
 
 
 
