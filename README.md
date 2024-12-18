@@ -14,12 +14,12 @@ FROM `courses`
 where `cfu` > 10
 ```
 
-### 3.
+### 3. Selezionare tutti gli studenti che hanno più di 30 anni
 
 ```SQL
-select *
-from students
-where year(`date_of_birth`) <  '1994'
+SELECT *
+FROM students
+WHERE `date_of_birth` < CURDATE() - INTERVAL 30 YEAR;
 ```
 
 
