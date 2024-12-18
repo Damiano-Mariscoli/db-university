@@ -23,18 +23,18 @@ where year(`date_of_birth`) <  '1994'
 ```
 
 
-
+### 4.
 ```SQL
-SELECT * 
-FROM `courses`
-where `cfu` > 10
+select *
+from `courses`
+where `period` = 'I semestre' and `year` = 1
 ```
 
-
+### 5.
 ```SQL
-SELECT * 
-FROM `courses`
-where `cfu` > 10
+select *
+from `exams`
+where hour(`hour`) >= '14:00' and `date` ="2020-06-20"
 ```
 
 
