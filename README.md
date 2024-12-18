@@ -13,3 +13,87 @@ SELECT *
 FROM `courses`
 where `cfu` > 10
 ```
+
+### 3.
+
+```SQL
+select *
+from students
+where year(`date_of_birth`) <  '1994'
+```
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
+
+
+
+```SQL
+SELECT * 
+FROM `courses`
+where `cfu` > 10
+```
